@@ -5604,11 +5604,11 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 
-.clearfix:before, .clearfix:after {
+.clearfix:before, .header-top:before, .header-bottom:before, .clearfix:after, .header-top:after, .header-bottom:after {
   content: " ";
   display: table; }
 
-.clearfix:after {
+.clearfix:after, .header-top:after, .header-bottom:after {
   clear: both; }
 
 .center-block {
@@ -5836,10 +5836,88 @@ button.close {
 body {
   background-color: #262626; }
 
+.link {
+  text-decoration: none; }
+  .link:hover {
+    text-decoration: none;
+    color: #FEE800; }
+  .link:focus {
+    text-decoration: none; }
+
+.header-top {
+  padding: 0 15px; }
+
+.header-top {
+  background: #262626;
+  border-top: 1px solid #FEE800;
+  border-bottom: 2px solid #161817; }
+  .header-top .logo-mini-lsk {
+    color: #FEE800;
+    font-size: 13px;
+    text-transform: uppercase; }
+  .header-top .logo-mini-link {
+    display: inline-block; }
+  .header-top .logo-mini {
+    float: left; }
+
+.login {
+  float: right; }
+  .login .login-text,
+  .login .register-text {
+    color: #FEE800; }
+  .login .login-text {
+    display: inline-block;
+    padding: 0 10px;
+    height: 24px;
+    border-left: 1px solid #161817;
+    border-right: 1px solid #161817; }
+  .login .register-title {
+    display: inline-block;
+    padding-left: 10px;
+    color: #a2a2a2; }
+
+.icon-align {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: -4px; }
+
 .header-container {
-  width: 2000px;
-  padding: 0 20px;
-  height: 110px;
-  background: #ffffff; }
+  background: #1E1E1E; }
+
+.header-bottom {
+  max-width: 1090px;
+  margin: 0 auto; }
+
+.heading-golden {
+  color: #FEE800;
+  text-transform: uppercase;
+  padding: 14px 0;
+  margin: 0; }
+
+.header-nav {
+  float: right; }
+  .header-nav .header-nav-link {
+    display: inline-block;
+    padding: 34px 18px;
+    font-size: 16px;
+    line-height: 0;
+    color: #a2a2a2; }
+    .header-nav .header-nav-link:hover {
+      color: #FEE800; }
+
+.header-nav-link {
+  border-right: 2px solid #161817; }
+
+.link-right-border {
+  border-left: 2px solid #161817; }
+
+.main {
+  background-image: url("/images/uploads/image_main.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  height: 400px; }
 
 /*# sourceMappingURL=style.css.map */
