@@ -36,7 +36,11 @@ module.exports = function(grunt) {
             files: {
                 expand: true,
                 cwd: 'src',
-                src: ['fonts/**/*', 'images/**/*'],
+                src: [
+                    'fonts/**/*',
+                    'images/**/*',
+                    'vendor/jquery/dist/jquery.min.js'
+                    ],
                 dest: 'build/',
                 filter: 'isFile'
             }
@@ -50,9 +54,20 @@ module.exports = function(grunt) {
                     //reload: true
                 }
             }
+        },
+
+        express: {
+            all : {
+                options : {
+                    //hostname: '0.0.0.0',
+                    hostname: 'localhost',
+                    port: 3000,
+                    bases: 'build'
+                }
+            }
         }
     });
     grunt.registerTask('default', ['sass']);
-    grunt.registerTask('start', ['clean', 'copy', 'sass', 'includereplacemore', 'watch'])
+    grunt.registerTask('start', ['clean', 'copy', 'sass', 'includereplacemore', 'express', 'watch'])
 
 };
