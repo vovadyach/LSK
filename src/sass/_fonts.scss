@@ -1,0 +1,33 @@
+//fonts.scss
+
+@font-face {
+  font-family: 'FranklinBold';
+  src: url('../fonts/FranklinGothic-Bold/FranklinBold.eot?') format('eot'),
+  url('../fonts/FranklinGothic-Bold/FranklinBold.woff') format('woff'),
+  url('../fonts/FranklinGothic-Bold/FranklinBold.ttf')  format('truetype'),
+  url('../fonts/FranklinGothic-Bold/FranklinBold.svg#FranklinBold') format('svg');
+}
+
+@font-face {
+  font-family: 'FranklinGothic-Medium';
+  src: url('../fonts/FranklinGothic-Medium/FranklinGothic-Medium.eot?') format('eot'),
+  url('../fonts/FranklinGothic-Medium/FranklinGothic-Medium.woff') format('woff'),
+  url('../fonts/FranklinGothic-Medium/FranklinGothic-Medium.ttf')  format('truetype'),
+  url('../fonts/FranklinGothic-Medium/FranklinGothic-Medium.svg#FranklinGothic-Medium') format('svg');
+}
+
+@font-face {
+  font-family: 'FranklinGothic-MediumCond';
+  src: url('../fonts/FranklinGothic-MediumCond/FranklinGothic-MediumCond.eot?') format('eot'),
+  url('../fonts/FranklinGothic-MediumCond/FranklinGothic-MediumCond.woff') format('woff'),
+  url('../fonts/FranklinGothic-MediumCond/FranklinGothic-MediumCond.ttf')  format('truetype'),
+  url('../fonts/FranklinGothic-MediumCond/FranklinGothic-MediumCond.svg#FranklinGothic-MediumCond') format('svg');
+}
+
+@font-face {
+  font-family: 'FranklinGothic-MediumItalic';
+  src: url('../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.eot?') format('eot'),
+  url('../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.woff') format('woff'),
+  url('../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.ttf')  format('truetype'),
+  url('../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.svg#FranklinGothic-MediumItalic') format('svg');
+}

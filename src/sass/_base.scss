@@ -1,0 +1,18 @@
+//base.scss
+
+body {
+  background-color: $gray-15;
+}
+
+.link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: $golden-yellow;
+  }
+  &:focus  {
+    text-decoration: none;
+  }
+}
+
+
