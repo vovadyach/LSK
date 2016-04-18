@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'FranklinBold';
+	src: url('FranklinBold.eot?') format('eot'), 
+	     url('FranklinBold.woff') format('woff'), 
+	     url('FranklinBold.ttf')  format('truetype'),
+	     url('FranklinBold.svg#FranklinBold') format('svg');
+}

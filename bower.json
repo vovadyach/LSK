@@ -1,0 +1,22 @@
+{
+  "name": "lsk",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vd <vd@norse.digital>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}

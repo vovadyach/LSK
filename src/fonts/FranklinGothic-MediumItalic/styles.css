@@ -1,0 +1,8 @@
+
+@font-face {
+	font-family: 'FranklinGothic-MediumItalic';
+	src: url('FranklinGothic-MediumItalic.eot?') format('eot'), 
+	     url('FranklinGothic-MediumItalic.woff') format('woff'), 
+	     url('FranklinGothic-MediumItalic.ttf')  format('truetype'),
+	     url('FranklinGothic-MediumItalic.svg#FranklinGothic-MediumItalic') format('svg');
+}
