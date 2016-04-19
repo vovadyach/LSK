@@ -39,7 +39,8 @@ module.exports = function(grunt) {
                 src: [
                     'fonts/**/*',
                     'images/**/*',
-                    'vendor/jquery/dist/jquery.min.js'
+                    'vendor/jquery/dist/jquery.min.js',
+                    'video/**/*'
                     ],
                 dest: 'build/',
                 filter: 'isFile'
