@@ -84,6 +84,13 @@
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
+  &.main-2 {
+    background-image: url('/images/uploads/image_main2.jpg');
+  }
+  &.main-3 {
+    background-image: url('/images/uploads/image_main3.jpg');
+  }
+
 }
 .main-title-container {
   @extend .clearfix;
@@ -278,15 +285,15 @@
   content: '';
   display: block;
   position: absolute;
-  width: 60%;
-  height: 53px;
+  width: 56%;
+  height: 54px;
   bottom: 41px;
   background: -moz-linear-gradient(top,  rgba(38,38,38,0.41) 0%, rgba(38,38,38,0.41) 18%, rgba(38,38,38,0.62) 47%,
           rgba(38,38,38,0.64) 50%, rgba(38,38,38,0.67) 54%, rgba(38,38,38,1) 100%);
   background: -webkit-linear-gradient(top,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
           rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 100%);
   background: linear-gradient(to bottom,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
-          rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 100%);
+          rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 93%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69262626', endColorstr='#262626',GradientType=0 );
 }
 
@@ -317,9 +324,11 @@
     padding: 30px 0;
   }
 }
-.popup-hide {
+
+.hide {
   display: none;
 }
+
 .popup-menu-wrapper {
   left: 0;
   top: 0;
@@ -344,8 +353,8 @@
 }
 .popup-window {
   width: 500px;
-  height: 425px;
   margin: 0 auto;
+  margin-bottom: 85px;
   background: #262626;
 }
 .popup-header {
@@ -354,7 +363,9 @@
   padding: 18px 23px;
 }
 .logo-vierlsk {
-  color: $golden-yellow;
+  a {
+    color: $golden-yellow;
+  }
   margin: 0;
   font-size: 26px;
   text-transform: uppercase;
@@ -365,11 +376,229 @@
   top: 26px;
   a {
     color: $dark-gray;
-    padding: 22px 20px;
-
+    padding: 10px 20px 22px;
     &:hover {
     background-color: $gray-15;
     }
   }
+}
 
+.container-fluid-custom {
+  padding: 37px 62px 20px;
+}
+.col-popup-custom {
+  padding: 0 3px;
+}
+
+.logg-facebook,
+.logg-google {
+  height: 27px;
+  width: 100%;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.btn-blue-f {
+  background-color: #3B589A;
+}
+.btn-cinnabar-g {
+  background-color: #E04A32;
+}
+
+.fa-facebook {
+  &:before {
+    display: block;
+    position: absolute;
+    left: 13px;
+    top: 1px;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 3px;;
+    padding-right: 4px;
+    border-right: 1px solid #404040;
+  }
+}
+.fa-google-plus {
+  padding-right: 8px;
+}
+
+.fa-google-plus {
+  &:before {
+    display: block;
+    position: absolute;
+    left: 13px;
+    top: 1px;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    padding-right: 1px;
+    border-right: 1px solid #404040;
+  }
+}
+
+.popup-link {
+  text-decoration: none;
+  color: #ffffff;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.pop-up-btn {
+  line-height: 0.8;
+}
+
+//Subtitle
+.subtitle {
+  margin: 0 0 1em 0;
+}
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+  color: #404040;
+
+}
+.fancy span:before,
+.fancy span:after {
+  content: " ";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #404040;
+  top: 0;
+  width: 88%
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.form-group {
+  .container-fluid {
+    padding-top: 0;
+    p {
+      margin: 14px 0 1px;
+      color: #404040;
+    }
+  }
+  .popinput-input {
+    width: 100%;
+    padding: 4px 0;
+    border: 1px solid $very-dark-black;
+  }
+  .input-bg-gray {
+    background-color: #404040;
+  }
+}
+
+input[type=checkbox] {
+  visibility: hidden;
+}
+
+/**
+ * Checkbox
+ */
+.checkboxFive {
+  @extend .clearfix;
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+
+/**
+* Create the box for the checkbox
+*/
+.checkboxFive label {
+  cursor: pointer;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 17px;
+  left: 2px;
+  background: #404040;
+  border: 1px solid $very-dark-black;
+  border-radius: 2px;
+}
+
+/**
+* Display the tick inside the checkbox
+*/
+.checkboxFive label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: transparent;
+  left: 1px;
+  top: 0;
+  border: 3px solid $dark-gray;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  //transform: rotate(-45deg);
+}
+/**
+* Create the hover event of the tick
+*/
+.checkboxFive label:hover::after {
+  opacity: 0.5;
+}
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+.container-fluid-custom {
+  p {
+    span {
+      color: $dark-gray;
+    }
+  }
+}
+.checkbox-wrapper {
+  @extend .clearfix;
+  p {
+  &.checkbox-title {
+    float: left;
+    margin-top: 11px;
+  }
+
+  }
+}
+.register-box {
+  position: relative;
+  float: right;
+  padding: 4px;
+  margin-top: 30px;
+  color: $dark-gray;
+  span {
+    display: inline-block;
+    position: absolute;
+    right: 106px;
+    top: 9px;
+    color: #404040;
+  }
+  .input-reg {
+    padding: 4px 16px;
+  }
+}
+
+.checkbox-login-text {
+  display: block;
+  margin-left: -14px;
 }

@@ -5604,11 +5604,11 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 
-.clearfix:before, .header-top:before, .header-bottom:before, .main-title-container:before, .content-container:before, .clearfix:after, .header-top:after, .header-bottom:after, .main-title-container:after, .content-container:after {
+.clearfix:before, .header-top:before, .header-bottom:before, .main-title-container:before, .content-container:before, .checkboxFive:before, .checkbox-wrapper:before, .clearfix:after, .header-top:after, .header-bottom:after, .main-title-container:after, .content-container:after, .checkboxFive:after, .checkbox-wrapper:after {
   content: " ";
   display: table; }
 
-.clearfix:after, .header-top:after, .header-bottom:after, .main-title-container:after, .content-container:after {
+.clearfix:after, .header-top:after, .header-bottom:after, .main-title-container:after, .content-container:after, .checkboxFive:after, .checkbox-wrapper:after {
   clear: both; }
 
 .center-block {
@@ -5919,6 +5919,10 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center; }
+  .main.main-2 {
+    background-image: url("/images/uploads/image_main2.jpg"); }
+  .main.main-3 {
+    background-image: url("/images/uploads/image_main3.jpg"); }
 
 .main-title {
   max-width: 458px;
@@ -6070,12 +6074,12 @@ body {
   content: '';
   display: block;
   position: absolute;
-  width: 60%;
-  height: 53px;
+  width: 56%;
+  height: 54px;
   bottom: 41px;
   background: -moz-linear-gradient(top, rgba(38, 38, 38, 0.41) 0%, rgba(38, 38, 38, 0.41) 18%, rgba(38, 38, 38, 0.62) 47%, rgba(38, 38, 38, 0.64) 50%, rgba(38, 38, 38, 0.67) 54%, #262626 100%);
   background: -webkit-linear-gradient(top, rgba(38, 38, 38, 0.41) 0%, rgba(38, 38, 38, 0.41) 18%, rgba(38, 38, 38, 0.62) 47%, rgba(38, 38, 38, 0.64) 50%, rgba(38, 38, 38, 0.67) 54%, #262626 100%);
-  background: linear-gradient(to bottom, rgba(38, 38, 38, 0.41) 0%, rgba(38, 38, 38, 0.41) 18%, rgba(38, 38, 38, 0.62) 47%, rgba(38, 38, 38, 0.64) 50%, rgba(38, 38, 38, 0.67) 54%, #262626 100%);
+  background: linear-gradient(to bottom, rgba(38, 38, 38, 0.41) 0%, rgba(38, 38, 38, 0.41) 18%, rgba(38, 38, 38, 0.62) 47%, rgba(38, 38, 38, 0.64) 50%, rgba(38, 38, 38, 0.67) 54%, #262626 93%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69262626', endColorstr='#262626',GradientType=0 ); }
 
 .sponsors-list ul {
@@ -6097,7 +6101,7 @@ body {
     text-align: center;
     padding: 30px 0; }
 
-.popup-hide {
+.hide {
   display: none; }
 
 .popup-menu-wrapper {
@@ -6124,8 +6128,8 @@ body {
 
 .popup-window {
   width: 500px;
-  height: 425px;
   margin: 0 auto;
+  margin-bottom: 85px;
   background: #262626; }
 
 .popup-header {
@@ -6134,10 +6138,11 @@ body {
   padding: 18px 23px; }
 
 .logo-vierlsk {
-  color: #FEE800;
   margin: 0;
   font-size: 26px;
   text-transform: uppercase; }
+  .logo-vierlsk a {
+    color: #FEE800; }
 
 .popup-nav {
   position: absolute;
@@ -6145,8 +6150,189 @@ body {
   top: 26px; }
   .popup-nav a {
     color: #a2a2a2;
-    padding: 22px 20px; }
+    padding: 10px 20px 22px; }
     .popup-nav a:hover {
       background-color: #262626; }
+
+.container-fluid-custom {
+  padding: 37px 62px 20px; }
+
+.col-popup-custom {
+  padding: 0 3px; }
+
+.logg-facebook,
+.logg-google {
+  height: 27px;
+  width: 100%;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.btn-blue-f {
+  background-color: #3B589A; }
+
+.btn-cinnabar-g {
+  background-color: #E04A32; }
+
+.fa-facebook:before {
+  display: block;
+  position: absolute;
+  left: 13px;
+  top: 1px;
+  font-size: 18px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-right: 4px;
+  border-right: 1px solid #404040; }
+
+.fa-google-plus {
+  padding-right: 8px; }
+
+.fa-google-plus:before {
+  display: block;
+  position: absolute;
+  left: 13px;
+  top: 1px;
+  font-size: 18px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  padding-right: 1px;
+  border-right: 1px solid #404040; }
+
+.popup-link {
+  text-decoration: none;
+  color: #ffffff; }
+  .popup-link:hover {
+    color: #fff; }
+
+.pop-up-btn {
+  line-height: 0.8; }
+
+.subtitle {
+  margin: 0 0 1em 0; }
+
+.fancy {
+  line-height: 0.5;
+  text-align: center; }
+
+.fancy span {
+  display: inline-block;
+  position: relative;
+  color: #404040; }
+
+.fancy span:before,
+.fancy span:after {
+  content: " ";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #404040;
+  top: 0;
+  width: 88%; }
+
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px; }
+
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px; }
+
+.form-group .container-fluid {
+  padding-top: 0; }
+  .form-group .container-fluid p {
+    margin: 14px 0 1px;
+    color: #404040; }
+
+.form-group .popinput-input {
+  width: 100%;
+  padding: 4px 0;
+  border: 1px solid #161817; }
+
+.form-group .input-bg-gray {
+  background-color: #404040; }
+
+input[type=checkbox] {
+  visibility: hidden; }
+
+/**
+ * Checkbox
+ */
+.checkboxFive {
+  float: left;
+  margin-right: 5px;
+  position: relative; }
+
+/**
+* Create the box for the checkbox
+*/
+.checkboxFive label {
+  cursor: pointer;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 17px;
+  left: 2px;
+  background: #404040;
+  border: 1px solid #161817;
+  border-radius: 2px; }
+
+/**
+* Display the tick inside the checkbox
+*/
+.checkboxFive label:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  background: transparent;
+  left: 1px;
+  top: 0;
+  border: 3px solid #a2a2a2;
+  border-top: none;
+  border-right: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg); }
+
+/**
+* Create the hover event of the tick
+*/
+.checkboxFive label:hover::after {
+  opacity: 0.5; }
+
+/**
+ * Create the checkbox state for the tick
+ */
+.checkboxFive input[type=checkbox]:checked + label:after {
+  opacity: 1; }
+
+.container-fluid-custom p span {
+  color: #a2a2a2; }
+
+.checkbox-wrapper p.checkbox-title {
+  float: left;
+  margin-top: 11px; }
+
+.register-box {
+  position: relative;
+  float: right;
+  padding: 4px;
+  margin-top: 30px;
+  color: #a2a2a2; }
+  .register-box span {
+    display: inline-block;
+    position: absolute;
+    right: 106px;
+    top: 9px;
+    color: #404040; }
+  .register-box .input-reg {
+    padding: 4px 16px; }
+
+.checkbox-login-text {
+  display: block;
+  margin-left: -14px; }
 
 /*# sourceMappingURL=style.css.map */
