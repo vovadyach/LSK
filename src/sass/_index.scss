@@ -185,9 +185,11 @@
     color: $dark-gray;
     text-transform: uppercase;
     font-size: 20px;
-    &:hover {
-      color: $golden-yellow;
-    }
+
+  }
+  &:hover {
+    color: $very-dark-gray;
+
   }
 
 }
