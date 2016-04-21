@@ -60,7 +60,6 @@ module.exports = function(grunt) {
         express: {
             all : {
                 options : {
-                    //hostname: '0.0.0.0',
                     hostname: 'localhost',
                     port: 3000,
                     bases: 'build'
