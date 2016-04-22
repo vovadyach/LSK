@@ -279,7 +279,16 @@
   -webkit-box-shadow:  0px 1px 9px 1px #161817;
   -moz-box-shadow:  0px 1px 9px 1px #161817;
   box-shadow: 0px 1px 9px 1px #161817;
+  &.header-box-golden {
+    background-color: $golden-yellow;
+    .chevron-menu-item {
+      &:hover {
+        background-color: rgba(254, 188, 0, 0.69);
+      }
+    }
+  }
 }
+
 .chevron-right {
   position: relative;
   &:hover {
@@ -302,7 +311,6 @@
   &:visited {
     text-decoration: none;
   }
-  
 }
 .border-top-chevron {
   border-top: 1px solid $very-dark-black;
