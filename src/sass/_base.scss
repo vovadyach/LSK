@@ -1,5 +1,9 @@
 //base.scss
 
+html,
+body {
+  height: 100%;
+}
 body {
   background-color: $gray-15;
   z-index: 0;

@@ -1,14 +1,15 @@
 //mypage.scss
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 
-&.my-page-container-1 {
-  padding: 0 15px;
-  max-width: 1175px;}
-&.my-page-container-2 {
+&.my-page-container {
   padding: 0 15px;
   max-width: 1175px;
 }
-
+.footer-down {
+  min-height: 100%;
+  padding: 100px 0;
+  margin: -100px 0;
+}
 .minside-heading {
   margin: 35px 0 15px 0;
   color: $golden-yellow;
@@ -78,9 +79,16 @@
 .mypage-accordion-inner {
   padding: 0 0px;
 }
-.accordion-toggle:after {
+.accordion-toggle-down:after {
   font-family: 'FontAwesome';
   content: "\f078";
+  float: right;
+
+}
+
+.accordion-toggle-up:after {
+  font-family: 'FontAwesome';
+  content: "\f077";
   float: right;
 }
 .accordion-opened .accordion-toggle:after {

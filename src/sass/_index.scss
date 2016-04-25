@@ -284,20 +284,22 @@
   width: 100%;
   padding: 40px 0;
 }
-.sponsors-list:after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 56%;
-  height: 54px;
-  bottom: 41px;
-  background: -moz-linear-gradient(top,  rgba(38,38,38,0.41) 0%, rgba(38,38,38,0.41) 18%, rgba(38,38,38,0.62) 47%,
-          rgba(38,38,38,0.64) 50%, rgba(38,38,38,0.67) 54%, rgba(38,38,38,1) 100%);
-  background: -webkit-linear-gradient(top,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
-          rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 100%);
-  background: linear-gradient(to bottom,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
-          rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 93%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69262626', endColorstr='#262626',GradientType=0 );
+.list-shaded {
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 56%;
+    height: 54px;
+    bottom: 41px;
+    background: -moz-linear-gradient(top,  rgba(38,38,38,0.41) 0%, rgba(38,38,38,0.41) 18%, rgba(38,38,38,0.62) 47%,
+            rgba(38,38,38,0.64) 50%, rgba(38,38,38,0.67) 54%, rgba(38,38,38,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
+            rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 100%);
+    background: linear-gradient(to bottom,  rgba(38,38,38,0.41) 0%,rgba(38,38,38,0.41) 18%,rgba(38,38,38,0.62) 47%,
+            rgba(38,38,38,0.64) 50%,rgba(38,38,38,0.67) 54%,rgba(38,38,38,1) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69262626', endColorstr='#262626',GradientType=0 );
+  }
 }
 
 .sponsors-list {
@@ -321,11 +323,14 @@
 
 .footer {
   background-color: $very-dark-gray;
-  border-top: 1px solid $very-dark-black;
+  border-top: 2px solid $very-dark-black;
   .footer-info {
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0;
   }
+}
+.footer-theme-light {
+  background-color: $gray-15;
 }
 
 .hide {

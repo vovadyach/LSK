@@ -5834,6 +5834,10 @@ button.close {
   font-family: 'FranklinGothic-MediumItalic';
   src: url("../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.eot?") format("eot"), url("../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.woff") format("woff"), url("../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.ttf") format("truetype"), url("../fonts/FranklinGothic-MediumItalic/FranklinGothic-MediumItalic.svg#FranklinGothic-MediumItalic") format("svg"); }
 
+html,
+body {
+  height: 100%; }
+
 body {
   background-color: #262626;
   z-index: 0; }
@@ -6076,7 +6080,7 @@ body {
   width: 100%;
   padding: 40px 0; }
 
-.sponsors-list:after {
+.list-shaded:after {
   content: '';
   display: block;
   position: absolute;
@@ -6102,10 +6106,13 @@ body {
 
 .footer {
   background-color: #1E1E1E;
-  border-top: 1px solid #161817; }
+  border-top: 2px solid #161817; }
   .footer .footer-info {
     text-align: center;
-    padding: 30px 0; }
+    padding: 40px 0; }
+
+.footer-theme-light {
+  background-color: #262626; }
 
 .hide {
   display: none; }
@@ -6518,7 +6525,8 @@ input[type=checkbox] {
     padding-left: 3px; }
 
 .a-laget-conatiner {
-  float: right; }
+  float: right;
+  margin-top: 5px; }
   .a-laget-conatiner .a-laget-pagination {
     list-style-type: none;
     margin: 0;
@@ -6564,8 +6572,6 @@ input[type=checkbox] {
 
 .chevron-right {
   position: relative; }
-  .chevron-right:hover .chevron-menu {
-    display: block; }
 
 .chevron-menu-item {
   display: block;
@@ -6623,13 +6629,14 @@ input[type=checkbox] {
     color: #D5B606;
     text-decoration: underline; }
 
-.my-page-container-1 {
+.my-page-container {
   padding: 0 15px;
   max-width: 1175px; }
 
-.my-page-container-2 {
-  padding: 0 15px;
-  max-width: 1175px; }
+.footer-down {
+  min-height: 100%;
+  padding: 100px 0;
+  margin: -100px 0; }
 
 .minside-heading {
   margin: 35px 0 15px 0;
@@ -6690,9 +6697,14 @@ input[type=checkbox] {
 .mypage-accordion-inner {
   padding: 0 0px; }
 
-.accordion-toggle:after {
+.accordion-toggle-down:after {
   font-family: 'FontAwesome';
   content: "\f078";
+  float: right; }
+
+.accordion-toggle-up:after {
+  font-family: 'FontAwesome';
+  content: "\f077";
   float: right; }
 
 .accordion-opened .accordion-toggle:after {
@@ -6808,5 +6820,99 @@ input[type=checkbox] {
 
 .pad-right-5 {
   padding-right: 5px; }
+
+.heading-color-y {
+  color: #FEE800; }
+
+.overview-container {
+  padding: 22px 15px;
+  max-width: 1132px; }
+
+.overview-table-wrapper {
+  margin: 20px 0;
+  background-color: #323232;
+  width: 100%;
+  border: 2px solid #161817; }
+
+.table-overview {
+  width: 100%; }
+  .table-overview .table-cell-item {
+    border-top: 1px solid #161817; }
+  .table-overview .heading-gray {
+    color: #a2a2a2; }
+
+.right-cell-align {
+  text-align: right; }
+
+.left-cell-align {
+  text-align: left; }
+
+.center-cell-align {
+  text-align: center; }
+
+.color-cell-h:nth-child(odd) {
+  background-color: #262626; }
+
+.table-cell-item {
+  padding: 15px 18px;
+  width: 100px;
+  color: #a2a2a2; }
+  .table-cell-item:nth-child(even) {
+    background-color: #383838; }
+
+.alaget-cell-title {
+  color: #FEE800; }
+
+.fa-golden {
+  color: #FEE800; }
+
+.fa-right-align {
+  float: right;
+  padding-top: 4px;
+  padding-right: 20px;
+  cursor: pointer; }
+
+.table-row-item th {
+  padding: 8px 18px; }
+
+.chevron-pad {
+  padding-left: 3px;
+  cursor: pointer; }
+
+.progress-xs {
+  height: 8px;
+  margin: 0; }
+
+.progress-100 {
+  width: 100% !important; }
+
+.progress-25 {
+  width: 25% !important; }
+
+.progress-40 {
+  width: 40% !important; }
+
+.progress-80 {
+  width: 80% !important; }
+
+.progress-45 {
+  width: 45% !important; }
+
+.auto-scroll {
+  overflow: auto;
+  max-height: 400px;
+  /* Let's get this party started */ }
+
+.auto-scroll::-webkit-scrollbar {
+  width: 8px; }
+
+.auto-scroll::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #262626;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+
+.table-row-item .cell-pad {
+  padding: 0 5px; }
 
 /*# sourceMappingURL=style.css.map */

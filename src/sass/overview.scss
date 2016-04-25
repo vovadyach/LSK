@@ -1,0 +1,121 @@
+//overview.scss
+.heading-color-y {
+  color: $golden-yellow;
+}
+.overview-container {
+  padding: 22px 15px;
+  max-width: 1132px;
+}
+
+.overview-table-wrapper {
+  margin: 20px 0;
+  background-color: $ver-dark-gray2;
+  width: 100%;
+  border: 2px solid $very-dark-black;
+}
+.table-overview  {
+  width: 100%;
+  .table-cell-item {
+    border-top: 1px solid $very-dark-black;
+  }
+  .heading-gray {
+    color: $dark-gray;
+  }
+}
+
+.right-cell-align {
+  text-align: right;
+}
+.left-cell-align {
+  text-align: left;
+}
+.center-cell-align {
+  text-align: center;
+}
+
+.color-cell-h {
+  &:nth-child(odd) {
+   background-color: $gray-15;
+  }
+}
+
+.table-cell-item {
+  padding: 15px 18px;
+  width: 100px;
+  color: $dark-gray;
+  &:nth-child(even) {
+    background-color: #383838;
+  }
+}
+
+.alaget-cell-title {
+  color: $golden-yellow;
+}
+.fa-golden {
+  color: $golden-yellow;
+}
+.fa-right-align {
+  float: right;
+  padding-top: 4px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.table-row-item {
+  th {
+    padding: 8px 18px;
+  }
+}
+
+.chevron-pad {
+  padding-left: 3px;
+  cursor: pointer;
+}
+.progress-xs {
+  height: 8px;
+  margin: 0;
+}
+.progress-100 {
+  width: 100% !important;
+}
+
+.progress-25 {
+  width: 25% !important;
+}
+.progress-40 {
+  width: 40% !important;
+}
+.progress-80 {
+  width: 80% !important;
+}
+.progress-45 {
+  width: 45% !important;
+}
+
+.auto-scroll {
+  overflow: auto;
+  max-height: 400px;
+
+  /* Let's get this party started */
+  }
+.auto-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+//.auto-scroll::-webkit-scrollbar-track {
+//     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+//    -webkit-border-radius: 10px;
+//    border-radius: 10px;
+//}
+
+.auto-scroll::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: $gray-15;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.table-row-item {
+  .cell-pad {
+    padding: 0 5px;
+  }
+}

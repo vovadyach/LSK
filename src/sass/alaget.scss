@@ -233,7 +233,8 @@
 
 //Pagination
 .a-laget-conatiner {
-  float: right; 
+  float: right;
+  margin-top: 5px;
   .a-laget-pagination {
     @extend .clearfix;
     list-style-type: none;
@@ -291,11 +292,11 @@
 
 .chevron-right {
   position: relative;
-  &:hover {
-    .chevron-menu {
-      display: block;
-    }
-  }
+  //&:hover {
+  //  .chevron-menu {
+  //    display: block;
+  //  }
+  //}
 }
 
 .chevron-menu-item {
