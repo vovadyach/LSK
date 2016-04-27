@@ -26,6 +26,7 @@
 
 .mypage-profil-nav {
   margin-top: 30px;
+
 }
 
 .activity-box {
@@ -36,16 +37,23 @@
 }
 .mypage-header {
   @extend .clearfix;
+  .chevron-menu, .chevron-right  {
+    a {
+      color: #93A59C;
+    }
+  }
   color: $dark-gray;
   padding: 6px 15px;
   border-bottom: 2px solid $very-dark-black;
 }
 
 .my-page-profil {
+  border: 2px solid $very-dark-black;
   background-color: #323232;
   color: $dark-gray;
   p {
     margin: 0;
+    font-size: 14px;
   }
 }
 
@@ -69,14 +77,14 @@
 
 .my-page-body-content {
   padding-left: 15px;
-  float: left;
-  width: 60%;
+  overflow: hidden;
 }
 
 .mypage-h-mod {
   margin: 0;
 }
 .mypage-accordion-inner {
+  @extend .clearfix;
   padding: 0 0px;
 }
 .accordion-toggle-down:after {
@@ -147,7 +155,9 @@
 :-ms-input-placeholder {
   padding-left: 8px;
 }
-
+.save-btn-box {
+  @extend .clearfix;
+}
 .save-button {
   float: right;
   padding: 18px;

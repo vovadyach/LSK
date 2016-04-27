@@ -35,18 +35,21 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom my-page-container">
+        <div class="header-bottom a-laget-header">
+            <div class="logo">
+                <a href="index.html" class="link">
+                    <img src="images/logo.png" alt=""/>
+                </a>
+            </div>
             <div class="header-nav">
                 <a href="index.html" class="link header-nav-link link-right-border">Forside</a>
                 <a href="alaget.html" class="link header-nav-link">A-laget</a>
                 <a href="info.html" class="link header-nav-link">Informasjon</a>
             </div>
-            <a href="index.html" class="link">
-                <h1 class="heading-golden">#Vierlsk</h1>
-            </a>
         </div>
     </div>
 </header>
+
 
 <div class="content-wrapper footer-down">
     <div class="content-container my-page-container">
@@ -122,6 +125,32 @@
                                         Epost
                                     </a>
                                 </div>
+                                <div class="accordion-body hide">
+                                    <div class="accordion-inner">
+                                        <div class="container-fluid accordion-fluid-pad">
+                                            <div class="row">
+                                                <div class="row-inner">
+                                                    <div class="col-lg-4">
+                                                        <p>Fornavn</p>
+                                                    </div>
+                                                    <div class="col-lg-8 ">
+                                                        <input class="accordion-input" type="text" name="" id=""
+                                                               placeholder="Dopey"/>
+                                                    </div>
+                                                </div>
+                                                <div class="row-inner">
+                                                    <div class="col-lg-4">
+                                                        <p>Etternavn</p>
+                                                    </div>
+                                                    <div class="col-lg-8 ">
+                                                        <input class="accordion-input" type="text" name="" id=""
+                                                               placeholder="Don"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="accordion-group">
                                 <div class="accordion-heading accordion-heading-border">
@@ -143,25 +172,27 @@
                             </div>
                         </div>
                         <!-- END Accordion -->
-                        <div class="save-button">
-                            <button class="btn-lagre btn-lagre-gray btn-gray-gradient" type="submit" name="" id=""
-                                    value="">
-                                <span class="lagre-text">Lagre</span>
-                            </button>
+                        <div class="save-btn-box">
+                            <div class="save-button">
+                                <button class="btn-lagre btn-lagre-gray btn-gray-gradient" type="submit" name="" id=""
+                                        value="">
+                                    <span class="lagre-text">Lagre</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="mypage-right">
-            <div class="activity-box border-black my-page-profil">
-                <div class="header-box-gray mypage-header activ-header-h header-gray15">
+            <div class="my-page-profil box-a-laget a-laget-default activity-box">
+                <div class=" mypage-header activ-header-h header-gray15 ">
                     <div class="activ-heading-title">
                         <p>Aktivitet</p>
                     </div>
 
-                    <div class="chevron-right" onclick="anichange('.chevron-menu'); return false">
-                        <a href="#"><i class="fa fa-chevron-down fa-12 " aria-hidden="true"></i></a>
+                    <div class="chevron-right">
+                        <a href="#" class="chevron-right-toggle"><i class="fa fa-chevron-down fa-12 " aria-hidden="true"></i></a>
 
                         <div class="chevron-menu chevron-dark-gray">
                             <a href="#" class="chevron-menu-item">
@@ -282,19 +313,19 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Pagination -->
-                    <div class="a-laget-conatiner">
-                        <ul class="a-laget-pagination">
-                            <li><a href="#">&#60;</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">&#62;</a></li>
-                        </ul>
-                    </div>
                 </div>
+            </div>
+            <!-- Pagination -->
+            <div class="a-laget-conatiner">
+                <ul class="a-laget-pagination">
+                    <li><a href="#">&#60;</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&#62;</a></li>
+                </ul>
             </div>
         </div>
     </div>

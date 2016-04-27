@@ -61,9 +61,19 @@
   cursor: pointer;
 }
 .table-row-item {
+  //display: none;
+
   th {
     padding: 8px 18px;
   }
+  //
+  //
+  //&.open {
+  //  & + tr {
+  //    display: block;
+  //  }
+  //}
+
 }
 
 .chevron-pad {

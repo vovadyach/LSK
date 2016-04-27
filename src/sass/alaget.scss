@@ -144,9 +144,6 @@
   color: $golden-yellow;
 }
 
-.box-a-laget {
-  margin-bottom: 30px;
-}
 .header-box-alaget {
   @extend .clearfix;
 
@@ -159,28 +156,35 @@
     margin: 0;
   }
 }
-.border-golden {
-  border: 2px solid $golden-yellow;
-}
 
-.border-lime-green {
-  border: 2px solid $lime-green;
-}
 
-.border-black {
-  border: 2px solid $very-dark-black;
+.box-a-laget {
+  margin-bottom: 30px;
+  border: 1px solid transparent;
 }
-.header-box-golden {
+.a-laget-primary {
+  border-color: $golden-yellow;
+}
+.a-laget-primary  > .header-box-alaget {
+  border-color: $golden-yellow;
   background-color: $golden-yellow;
   color: $very-dark-black;
 }
 
-.header-box-green  {
-  background-color:$lime-green;
+.a-laget-success {
+  border-color: $lime-green;
+}
+.a-laget-success  > .header-box-alaget {
+  border-color: $lime-green;
+  background-color: $lime-green;
   color: $very-dark-black;
 }
 
-.header-box-gray {
+.a-laget-default {
+  border-color: $very-dark-black;
+}
+.a-laget-default  > .header-box-alaget {
+  border-color: $very-dark-black;
   background-color: $very-dark-gray;
   color: $golden-yellow;
   .chevron-right {
@@ -192,6 +196,10 @@
     font-size: 17px;
   }
 }
+
+
+
+
 .chevron-right {
   float: right;
   padding: 6px 5px 5px 15px;
@@ -203,6 +211,7 @@
     z-index: 2;
   }
 }
+
 .header-title-left {
   float: left;
   .icon-left {
@@ -230,13 +239,17 @@
     padding-left: 3px;
   }
 }
+.text-box-description {
+  overflow: hidden;
+}
 
 //Pagination
 .a-laget-conatiner {
-  float: right;
+  overflow: hidden;
   margin-top: 5px;
   .a-laget-pagination {
     @extend .clearfix;
+    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -316,3 +329,4 @@
 .border-top-chevron {
   border-top: 1px solid $very-dark-black;
 }
+
