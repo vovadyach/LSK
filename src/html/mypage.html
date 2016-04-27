@@ -18,10 +18,35 @@
                     <span class="logo-mini-lsk">Lsk</span>
                 </a>
                 <!-- For modern browsers. -->
-                <i class="material-icons icon-align"></i>
+                <i class="material-icons icon-align chevron-right-toggle"></i>
                 <!-- For IE9 or below. -->
-                <i class="material-icons icon-align">&#xE313;</i>
-
+                <i class="material-icons icon-align chevron-right-toggle">&#xE313;</i>
+                <div class="logo-dropdown-menu">
+                    <ul class="menu-dropown">
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-external-link" aria-hidden="true"></i>LSK.no
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-facebook-square "
+                                   aria-hidden="true"></i>Facebook
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-google-plus-square"
+                                   aria-hidden="true"></i>Google
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-twitter-square"aria-hidden="true"></i>Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="login">
                 <div class="login-right">
@@ -330,6 +355,134 @@
         </div>
     </div>
 </div>
+
+<!--POPUP MENUs-->
+<div class="popup-menu-wrapper hide">
+    <div class="popup-table">
+        <div class="popup-row">
+            <div class="popup-cell">
+                <div class="overlay "></div>
+                <div class="popup-window">
+                    <div class="popup-header">
+                        <h3 class="logo-vierlsk">
+                            <a href="#" class="link">#Vierlsk</a>
+                        </h3>
+
+                        <div class="popup-nav">
+                            <a href="#" class="link">Register</a>
+                            <a href="#" class="link">Logg inn</a>
+                        </div>
+                    </div>
+                    <div class="container-fluid container-fluid-custom">
+                        <div class="row">
+                            <div class="col-lg-6 col-popup-custom">
+                                <div class="facebook">
+                                    <a href="#" class="link popup-link">
+                                        <button class=" logg-facebook pop-up-btn btn-blue-f"><i class="fa fa-facebook"
+                                                                                                aria-hidden="true"></i>
+                                            Logg inn med Facebbok
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-popup-custom">
+                                <div class="google">
+                                    <a href="#" class="link popup-link">
+                                        <button class=" logg-google pop-up-btn btn-cinnabar-g "><i
+                                                class="fa fa-google-plus" aria-hidden="true"></i>Logg inn med Google
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="subtitle fancy">
+                        <span>Eller logg inn med din email</span>
+                    </p>
+
+                    <!--FORM REGISTER-->
+                    <form action="#" class="form-group form-register hide">
+                        <div class="container-fluid container-fluid-custom">
+                            <div class="row">
+                                <div class="col-lg-12 col-popup-custom">
+                                    <div class="email-box">
+                                        <p>Nva er din email adresse?</p>
+                                        <input class="popinput-input input-bg-gray" type="email" name="" id=""/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-popup-custom">
+                                    <div class="popinput-box pass-box">
+                                        <p>Velg et passord</p>
+                                        <input class="popinput-input input-bg-gray" type="password" name="" id=""/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-popup-custom">
+                                    <div class="popinput-box confirmpass-box">
+                                        <p>Gjenta passord</p>
+                                        <input class="popinput-input input-bg-gray" type="email" name="" id=""/>
+                                    </div>
+                                </div>
+                                <!-- Checbox Five -->
+                                <div class="checkbox-wrapper">
+                                    <div class="checkboxFive">
+                                        <input class="checkbox-input" type="checkbox" value="1" id="checkboxFiveInput1"
+                                               name="test1"/>
+                                        <label for="checkboxFiveInput1"></label>
+                                    </div>
+                                    <p class="checkbox-title">Jeggodtar <span>Vukarene</span> for
+                                        <span>Bruk og Persoven</span></p>
+
+                                    <div class="col-lg-3 register-box">
+                                        <span>Avslutt</span>
+                                        <input class="popinput-input input-bg-gray input-reg" type="submit"
+                                               value="Register" id=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!--END FORM REGISTER-->
+
+
+                    <!--FORM LOGIN-->
+                    <form action="#" class="form-group form-login hide">
+                        <div class="container-fluid container-fluid-custom">
+                            <div class="row">
+                                <div class="col-lg-12 col-popup-custom">
+                                    <div class="email-box">
+                                        <p>Din email adresse?</p>
+                                        <input class="popinput-input input-bg-gray" type="email" name="" id=""/>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-popup-custom">
+                                    <div class="email-box">
+                                        <p>Ditt passord?</p>
+                                        <input class="popinput-input input-bg-gray" type="email" name="" id=""/>
+                                    </div>
+                                </div>
+                                <!-- Checbox Five -->
+                                <div class="checkbox-wrapper">
+                                    <div class="checkboxFive">
+                                        <input class="checkbox-input" type="checkbox" value="1" id="checkboxFiveInput2"
+                                               name="test2"/>
+                                        <label for="checkboxFiveInput2"></label>
+                                    </div>
+                                    <p class="checkbox-title">Husk meg<span class="checkbox-login-text">Glempt passord?</span></p>
+                                    <div class="col-lg-3 register-box">
+                                        <span>Avslutt</span>
+                                        <input class="popinput-input input-bg-gray input-reg" type="submit" value="Logg inn" id=""/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <!--END FORM LOGIN-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="footer">
     <div class="footer-info">
         &copy; LSK 2014
@@ -339,5 +492,6 @@
 <script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="javascripts/dropdown.js"></script>
 <script src="javascripts/accordion.js"></script>
+<script src="javascripts/popup.js"></script>
 </body>
 </html>

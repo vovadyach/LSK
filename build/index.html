@@ -18,18 +18,43 @@
                     <span class="logo-mini-lsk">Lsk</span>
                 </a>
                 <!-- For modern browsers. -->
-                <i class="material-icons icon-align"></i>
+                <i class="material-icons icon-align chevron-right-toggle"></i>
                 <!-- For IE9 or below. -->
-                <i class="material-icons icon-align">&#xE313;</i>
-
+                <i class="material-icons icon-align chevron-right-toggle">&#xE313;</i>
+                <div class="logo-dropdown-menu">
+                    <ul class="menu-dropown">
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-external-link" aria-hidden="true"></i>LSK.no
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-facebook-square "
+                                   aria-hidden="true"></i>Facebook
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-google-plus-square"
+                                   aria-hidden="true"></i>Google
+                            </a>
+                        </li>
+                        <li class="menu-dropown-item">
+                            <a class="dropown-item-link" href="#">
+                                <i class="fa fa-twitter-square"aria-hidden="true"></i>Twitter
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="login">
                 <div class="login-right">
-                    <a href="#" class="link">
+                    <a href="#" class="link login-link">
                         <span class="login-text">Logg inn</span>
                     </a>
                     <span class="register-title">Har ikke brukerkonto?</span>
-                    <a href="#" class="link">
+                    <a href="#" class="link register-link">
                         <span class="register-text">Register</span>
                     </a>
                 </div>
@@ -281,6 +306,7 @@
     <div class="popup-table">
         <div class="popup-row">
             <div class="popup-cell">
+                <div class="overlay "></div>
                 <div class="popup-window">
                     <div class="popup-header">
                         <h3 class="logo-vierlsk">
@@ -364,7 +390,7 @@
 
 
                     <!--FORM LOGIN-->
-                    <form action="#" class="form-group form-login">
+                    <form action="#" class="form-group form-login hide">
                         <div class="container-fluid container-fluid-custom">
                             <div class="row">
                                 <div class="col-lg-12 col-popup-custom">
@@ -401,6 +427,9 @@
         </div>
     </div>
 </div>
+
 <script src="vendor/jquery/dist/jquery.min.js"></script>
+<script src="javascripts/popup.js"></script>
+<script src="javascripts/dropdown.js"></script>
 </body>
 </html>
