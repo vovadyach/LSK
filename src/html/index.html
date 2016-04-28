@@ -66,6 +66,42 @@
                     <img src="images/logo.png" alt=""/>
                 </a>
             </div>
+            <!-- HAMBURGER MENU -->
+            <div class="header-hamburger">
+                <i class="fa fa-bars fa-2x hamburger-toggle" aria-hidden="true"></i>
+            </div>
+            <div class="hamburger-menu">
+                <div class="hamburger-menu-nav">
+                    <a href="index.html" class="hamburger-menu-link">Forside</a>
+                    <a href="alaget.html" class="hamburger-menu-link">A-laget</a>
+                    <a href="info.html" class="hamburger-menu-link">Informasjon</a>
+                </div>
+                <!--<div class="login">-->
+                    <!--<div class="login-right">-->
+                        <!--<a href="#" class="link login-link">-->
+                            <!--<span class="login-text">Logg inn</span>-->
+                        <!--</a>-->
+                        <!--<span class="register-title">Har ikke brukerkonto?</span>-->
+                        <!--<a href="#" class="link register-link">-->
+                            <!--<span class="register-text">Register</span>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="login-register-nav">
+                    <div class="login-hamburger-nav">
+                        <a href="#" class="link login-link">
+                            <span class="login-text">Logg inn</span>
+                        </a>
+                    </div>
+                    <div class="register-hamburger-nav">
+                        <span class="register-title">Har ikke brukerkonto?</span>
+                        <a href="#" class="link register-link">
+                            <span class="register-text">Register</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- END HAMBURGER MENU -->
             <div class="header-nav">
                 <a href="index.html" class="link header-nav-link link-right-border">Forside</a>
                 <a href="alaget.html" class="link header-nav-link">A-laget</a>
@@ -76,7 +112,7 @@
 </header>
 
 
-<main class="main">
+<main class="main main-1">
     <div class="main-title-container">
         <div class="main-title">
             <div class="main-title-inner">
@@ -109,23 +145,23 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-xs-6">
                         <div class="btn-box">
                             <button class="btn-block btn btn-custom"><span>Kr 50</span></button>
                         </div>
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xs-6">
                         <div class="btn-box">
                             <button class="btn-block  btn btn-custom"><span>Kr 100</span></button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xs-6">
                         <div class="btn-box">
                             <button class="btn-block  btn btn-custom"><span>Kr 250</span></button>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-xs-6">
                         <div class="btn-box">
                             <button class="btn-block btn btn-custom"><span>Kr 500</span></button>
                         </div>
@@ -180,8 +216,9 @@
     </div>
 
     <div class="info-box-wrapper">
-        <div class="info-box">
+        <div class="info-box info-box-align">
             <div class="info-box-title">
+                <h2 class="heading-mobile-mod">A-laget</h2>
                 <p>
                     <span>1361</span> hovedsponsorer har pa <span>21</span> fjlkfjlkjkfaruop <span>640.250,</span> -av
                     <span> 1.000.000,-</span>
@@ -197,98 +234,100 @@
     <div class="sponsors info-box">
         <h1>Hovedsponsorene</h1>
         <hr class="yellow-divider"/>
-        <div class="sponsors-list-container container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="sponsors-list list-shaded">
-                        <ul class="sponsors-nav">
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                        </ul>
+        <div class="sponsors-box-align">
+            <div class="sponsors-list-container container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="sponsors-list list-shaded">
+                            <ul class="sponsors-nav">
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="sponsors-list list-shaded">
-                        <ul class="sponsors-nav">
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                        </ul>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="sponsors-list list-shaded">
+                            <ul class="sponsors-nav">
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="sponsors-list list-shaded">
-                        <ul class="sponsors-nav">
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                        </ul>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="sponsors-list list-shaded">
+                            <ul class="sponsors-nav">
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="sponsors-list list-shaded">
-                        <ul class="sponsors-nav">
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                            <li><a href="#">Martins AS</a><span> 20.000</span></li>
-                            <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
-                        </ul>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="sponsors-list list-shaded">
+                            <ul class="sponsors-nav">
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                                <li><a href="#">Martins AS</a><span> 20.000</span></li>
+                                <li><a class="link " href="#">Breddle Invest As</a><span> 40.000</span></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -431,5 +470,6 @@
 <script src="vendor/jquery/dist/jquery.min.js"></script>
 <script src="javascripts/popup.js"></script>
 <script src="javascripts/dropdown.js"></script>
+<script src="javascripts/barMenu.js"></script>
 </body>
 </html>

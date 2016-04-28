@@ -54,3 +54,20 @@
     text-decoration: underline;
   }
 }
+
+@media only screen and (max-width: $screen-sm-max) {
+  .info-content {
+    float: none;
+    width: 100%;
+  }
+  .info-side {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .main {
+    background-position: 90% center;
+  }
+}

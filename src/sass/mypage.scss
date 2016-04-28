@@ -8,7 +8,7 @@
 .footer-down {
   min-height: 100%;
   padding: 100px 0;
-  margin: -100px 0;
+  //margin: -100px 0;
 }
 .minside-heading {
   margin: 35px 0 15px 0;
@@ -236,4 +236,25 @@
   padding-right: 5px;
 }
 
-
+@media only screen and (max-width: $screen-xs-max) {
+  .my-page-container {
+    padding: 0 15px;
+    max-width: 440px;
+    width: 100%;
+    margin: auto;
+  }
+  .mypage-left,
+  .mypage-right{
+    float: none;
+  }
+  .mypage-left {
+    width: auto;
+  }
+  .mypage-right {
+    width: auto;
+    margin: 20px 0 20px 0;
+    .activity-box {
+      margin: 0;
+    }
+  }
+}

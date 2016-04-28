@@ -20,7 +20,10 @@
             $(".popup-menu-wrapper").addClass("hide");
             $formRegister.addClass("hide");
         });
+        event.preventDefault();
+
     });
+
 
     $login.on("click", function(event) {
         var $this = $(this);

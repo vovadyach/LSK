@@ -26,7 +26,7 @@
 }
 
 .a-laget-left {
-  width: 23%;
+  width: 28%;
   float: left;
   margin-right: 2%;
 }
@@ -35,13 +35,14 @@
   border-bottom: 2px solid $very-dark-black;
 }
 .a-laget-right {
-  width: 75%;
+  width: 70%;
   float: left;
+  padding-left: 15px;
 }
 .content-container {
   &.a-laget-container {
-    padding: 30px 0;
-    max-width: 1142px;
+    padding: 30px 20px;
+    max-width: 1180px;
   }
 }
 
@@ -80,7 +81,6 @@
 .btn-custom {
   &.btn-a-laget {
     width: 100%;
-    height: 38px;
   }
   &:hover {
     background-color: $golden-yellow;
@@ -89,7 +89,6 @@
   }
   span {
     font-size: 16px;
-    line-height: 1;
   }
 }
 
@@ -105,10 +104,6 @@
 }
 .a-laget-color {
   background-color: transparent;
-}
-
-.a-height {
-  height: 45px;
 }
 
 .social-a-laget {
@@ -330,3 +325,41 @@
   border-top: 1px solid $very-dark-black;
 }
 
+@media only screen and (max-width: $screen-sm-max) {
+  .a-laget-right {
+    width: 60%;
+  }
+
+  .a-laget-left {
+    width: 38%;
+  }
+}
+
+@media only screen and (max-width: $screen-xs-max) {
+  .heading-alaget-info {
+    color: $golden-yellow;
+  }
+  .alaget-mobile-container {
+    max-width: 100%;
+    width: 412px;
+    margin: 0 auto;
+  }
+  .a-laget-left {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+
+  .a-laget-right {
+    float: none;
+    width: auto;
+    margin: auto;
+    padding: 0;
+  }
+  .main {
+    &.main-2 {
+      background-position: center center;
+    }
+  }
+}
